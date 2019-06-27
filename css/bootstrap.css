@@ -1124,6 +1124,7 @@ img {
   max-width: 100%;
   height: auto;
   border-radius:8px;
+  margin-top:20px;
 }
 .img-rounded {
   border-radius: 6px;
@@ -4494,7 +4495,7 @@ select[multiple].input-group-sm > .input-group-btn > .btn {
   }
 }
 .navbar-default {
-  background-color: #cccccc98;
+  background-color: #00000098;
   border-color:#cccccc41;
 }
 .navbar-default .navbar-brand {
@@ -4509,11 +4510,13 @@ select[multiple].input-group-sm > .input-group-btn > .btn {
   color: #777;
 }
 .navbar-default .navbar-nav > li > a {
-  color: #000000;
+  color: #ffffff;
+  margin-top:15px;
+  margin-bottom:10px
 }
 .navbar-default .navbar-nav > li > a:hover,
 .navbar-default .navbar-nav > li > a:focus {
-  color: #333316;
+  color: #092402;
   background-color: transparent;
 }
 .navbar-default .navbar-nav > .active > a,
